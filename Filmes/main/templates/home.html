@@ -1,0 +1,10 @@
+{% for each in Filmes %}
+    <h2 align="center">Nome do Filme: {{ each.nome_do_filme }}</h2>
+    <h3 align="center">Ator Principal: {{ each.ator_principal }}</h3>
+    <p align="center">Sinopse: {{ each.sinopse_do_filme }}</p>
+    <p align="center">Classificação: {{ each.classificação }}</p>
+    <p align="center">Assistido no Cinema: {{ each.assistido_no_cinema }}</p>
+    <p align="center">Data de Lançamento: {{ each.data_de_lançamento }}</p>
+
+    <br><br>
+{% endfor %}
